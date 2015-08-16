@@ -1,3 +1,18 @@
 .form-inline {
-	margin: 20px;
+	margin-bottom: 20px;
 }
+
+#pass-line {
+  padding-right: 20px;
+}
+
+.form-control {
+  margin-right: 45px;
+}
+
+#passInput {
+  display: inline-block;
+  padding-right: 12.5em;
+}
+
+

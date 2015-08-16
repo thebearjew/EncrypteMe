@@ -1,41 +1,42 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Encrypt Me</title>
-	<link rel = "stylesheet" href = "css/style.css"></link>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<link href="css/jumbotron-narrow.css" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-</head>
-<body>
-	<div class = "container">
+  
+  <head>
+	  <title>Encrypt Me</title>
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	  <link href="css/jumbotron-narrow.css" rel="stylesheet">
+	  <link rel = "stylesheet" href = "css/style.css"></link>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  </head>
+
+  <body>
+	  <div class = "container">
       <div class="jumbotron">
         <h1>Encrypt Me</h1>
         <p class="lead">This webpage allows for two main functions which are encrypting and decrypting files.</p>
       </div>
 
-	<!-- FORM CLASS -->
-	<form class="form-inline">
-     <div class="form-group">
-       <label id = "pass-line">Password</label>
-       <input type="text" class="form-control" id="passInput" placeholder="Password">
-     </div>
-     <button type="button" class="btn btn-success" id = "encryptButn">Encrypt Text</button>
-     <button type="button" class="btn btn-success" id = "dencryptButn">Decrypt Text</button>
-    </form>
+      <!-- Giant Text Field-->
+      <div class="form-group">
+        <label for="comment">Input Text:</label>
+ 	 	    <textarea class="form-control" rows="15" id="inputText"></textarea>
+	    </div>
 
-    <!-- Giant Text Field-->
-    <div class="form-group">
-  		<label for="comment">Input Text:</label>
- 	 	<textarea class="form-control" rows="15" id="inputText"></textarea>
-	</div>
+	    <!-- FORM CLASS -->
+	    <form class="form-inline">
+        <div class="form-group">
+          <label id = "pass-line">Password:</label>
+          <input type="text" class="form-control" id="passInput" placeholder="Password">
+        </div>
+        <button type="button" class="btn btn-success" id = "encryptButn">Encrypt Text</button>
+        <button type="button" class="btn btn-success" id = "dencryptButn">Decrypt Text</button>
+      </form>
 
-
-	<script src = "script/app.js"></script>
-</body>
-
-<footer class = "footer">
-	<p>&copy; BrightLKMS 2015</p>
-</footer>
-	</div> <!-- Container -->
+      <div class = "footer">
+	      <p>&copy; BrightLKMS 2015</p>
+      </div>
+	  </div> <!-- Container -->
+	  <script src = "script/app.js"></script>
+  </body>
+  
 </html>
