@@ -3,9 +3,9 @@
   
   <head>
 	  <title>Encrypt Me</title>
-	  <link rel = "stylesheet" href = "css/style.css"></link>
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	  <link href="css/jumbotron-narrow.css" rel="stylesheet">
+	  <link rel = "stylesheet" href = "css/style.css"></link>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   </head>
 
@@ -16,6 +16,12 @@
         <p class="lead">This webpage allows for two main functions which are encrypting and decrypting files.</p>
       </div>
 
+      <!-- Giant Text Field-->
+      <div class="form-group">
+        <label for="comment">Input Text:</label>
+ 	 	    <textarea class="form-control" rows="15" id="inputText"></textarea>
+	    </div>
+
 	    <!-- FORM CLASS -->
 	    <form class="form-inline">
         <div class="form-group">
@@ -25,12 +31,6 @@
         <button type="button" class="btn btn-success" id = "encryptButn">Encrypt Text</button>
         <button type="button" class="btn btn-success" id = "dencryptButn">Decrypt Text</button>
       </form>
-
-      <!-- Giant Text Field-->
-      <div class="form-group">
-        <label for="comment">Input Text:</label>
- 	 	    <textarea class="form-control" rows="15" id="inputText"></textarea>
-	    </div>
 
       <div class = "footer">
 	      <p>&copy; BrightLKMS 2015</p>
