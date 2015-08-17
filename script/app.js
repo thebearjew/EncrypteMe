@@ -14,13 +14,13 @@ function arrangeString(funct){
 	}
 	var text = document.getElementById('inputText').value
 	if (funct.data.param1 == "enc"){
-		document.getElementById('inputText').value = fetchAscii(text, passlist)
-		document.getElementById('passInput').value = "" 
+		$('#inputText').val(fetchAscii(text, passlist))
+		$('#passInput').val("")
 	}
 	else if(funct.data.param2 == "dec"){
 		var newText = text.split("&")	
-		document.getElementById('inputText').value = fetchAscii2(newText, passlist)
-		document.getElementById('passInput').value =""
+		$('#inputText').val(fetchAscii2(newText, passlist))
+		$('#passInput').val("")
 	}
 }
 
