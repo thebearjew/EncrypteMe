@@ -1,6 +1,5 @@
 ## Encrypt Me 
 
-### Synopsis
 This project is a simple application that allows user to encrypt messages with a key. This same key is used to decrypt the encrypted message.
 
 ### Algorithm
